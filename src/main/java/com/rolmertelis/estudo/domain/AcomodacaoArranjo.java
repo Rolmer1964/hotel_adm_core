@@ -13,9 +13,7 @@ public record AcomodacaoArranjo(
         @ManyToOne
         Contrato contrato,
         String nome,
-        String descricao,
-        @OneToMany
-        Set<AcomodacaoArranjoDetalhe> acomodacaoArranjoDetalhes
+        String descricao
 
 ) {
 }
