@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: Hotelaria - Módulo principal
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+  datasource:
+    url: jdbc:h2:mem:hotels
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    open-in-view: false
+
