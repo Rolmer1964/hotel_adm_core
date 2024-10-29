@@ -38,9 +38,17 @@ VALUES
     (7,1,'Casal e dois adultos', 'Uma cama de casal para ser comparilhada por duas pessoas adultas e duas camas de solteiro, para serem ocupadas por adultos'),
     (8,1,'Casal e dois adultos', 'Uma cama de casal para ser comparilhada por duas pessoas adultas e duas camas de solteiro, para serem ocupadas por adultos'),
     (9,1,'Quatro adultos', 'Quatro camas de solteiro, para serem ocupadas por adultos')
+;
 
+INSERT INTO ACOMODACAO_TIPOS   (ID , CONTRATO_ID ,NOME ,DESCRICAO )
+VALUES
+    (1,1,'Cama Queen', 'Cama Quen size para dois adultos'),
+    (2,1,'Cama Casal', 'Cama Casal para dois adultos'),
+    (3,1,'Cama Solteiro', 'Cama Solteiro para uma pessoa adulto ou criança'),
+    (4,1,'Cama Solteiro Guarnecida', 'Cama Solteiro guarnecida como berço')
 
 ;
+
 
 
 
