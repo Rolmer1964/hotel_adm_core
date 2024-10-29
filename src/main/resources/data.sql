@@ -27,6 +27,21 @@ VALUES
     (4,1,'Só para marajás, vista mar cobertura', 'Só o luxo 1201', 1201)
 ;
 
+INSERT INTO ACOMODACAOES_ARRANJOS  (ID, CONTRATO_ID, NOME , DESCRICAO)
+VALUES
+    (1,1,'Casal', 'Uma cama de casal para ser comparilhada por duas pessoas adultas'),
+    (2,1,'Casal e bebê', 'Uma cama de casal para ser comparilhada por duas pessoas adultas e uma cama de solteiro com guarnição de segurança tipo berço para bebê'),
+    (3,1,'Dois Casais', 'Duas camas de casal para serem comparilhadas por duas pessoas adultas, cada uma'),
+    (4,1,'Casal e uma criança', 'Uma cama de casal para ser comparilhada por duas pessoas adultas e uma cama de solteiro para ser ocupada ´por uma criança'),
+    (5,1,'Casal e duas crianças', 'Uma cama de casal para ser comparilhada por duas pessoas adultas e duas camas de solteiro, para serem ocupadas por crianças'),
+    (6,1,'Casal e um adulto', 'Uma cama de casal para ser comparilhada por duas pessoas adultas e uma cama de solteiro, para ser ocupada por adulto'),
+    (7,1,'Casal e dois adultos', 'Uma cama de casal para ser comparilhada por duas pessoas adultas e duas camas de solteiro, para serem ocupadas por adultos'),
+    (8,1,'Casal e dois adultos', 'Uma cama de casal para ser comparilhada por duas pessoas adultas e duas camas de solteiro, para serem ocupadas por adultos'),
+    (9,1,'Quatro adultos', 'Quatro camas de solteiro, para serem ocupadas por adultos')
+
+
+;
+
 
 
 
