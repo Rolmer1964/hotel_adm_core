@@ -36,21 +36,79 @@ VALUES
     (5,1,'Casal e duas crianças', 'Uma cama de casal para ser comparilhada por duas pessoas adultas e duas camas de solteiro, para serem ocupadas por crianças'),
     (6,1,'Casal e um adulto', 'Uma cama de casal para ser comparilhada por duas pessoas adultas e uma cama de solteiro, para ser ocupada por adulto'),
     (7,1,'Casal e dois adultos', 'Uma cama de casal para ser comparilhada por duas pessoas adultas e duas camas de solteiro, para serem ocupadas por adultos'),
-    (8,1,'Casal e dois adultos', 'Uma cama de casal para ser comparilhada por duas pessoas adultas e duas camas de solteiro, para serem ocupadas por adultos'),
-    (9,1,'Quatro adultos', 'Quatro camas de solteiro, para serem ocupadas por adultos')
+
+    (8,1,'Dois adultos', 'Duas camas de solteiro, para serem ocupadas por adultos'),
+    (9,1,'Três adultos', 'Três camas de solteiro, para serem ocupadas por adultos'),
+    (10,1,'Quatro adultos', 'Quatro camas de solteiro, para serem ocupadas por adultos')
 ;
 
 INSERT INTO ACOMODACAO_TIPOS   (ID , CONTRATO_ID ,NOME ,DESCRICAO )
 VALUES
-    (1,1,'Cama Queen', 'Cama Quen size para dois adultos'),
-    (2,1,'Cama Casal', 'Cama Casal para dois adultos'),
+    (1,1,'Cama Casal', 'Cama Casal para dois adultos'),
+    (2,1,'Cama Queen', 'Cama Quen size para dois adultos'),
     (3,1,'Cama Solteiro', 'Cama Solteiro para uma pessoa adulto ou criança'),
     (4,1,'Cama Solteiro Guarnecida', 'Cama Solteiro guarnecida como berço')
 
 ;
 
+INSERT INTO ACOMODACAO_ARRANJOS_DETALHES    (ID , ACOMODACAO_ARRANJO_ID ,ACOMODACAO_TIPO_ID ,QUANTIDADE)
+VALUES
+    (1,1,1, 1),
 
+    (2,2,1, 1),
+    (3,2,4, 1),
 
+    (4,3,1, 2),
+
+    (5,4,1, 1),
+    (6,4,3, 1),
+
+    (7,5,1, 1),
+    (8,5,3, 2),
+
+    (9,6,1, 1),
+    (10,6,3, 1),
+
+    (11,7,1, 1),
+    (12,7,3, 2),
+
+    (13,8,3, 2),
+
+    (14,9,3, 3),
+
+    (15,10,3, 4)
+;
+
+INSERT INTO UNIDADES_HABITACIONAIS_ACOMODACOES_ARRANJOS  (UNIDADE_HABITACIONAL_ID ,UNIDADES_HABITACIONAIS_ACOMODACOES_ARRANJOS_ID )
+VALUES
+    (1,1),
+    (1,2),
+    (1,4),
+    (1,6),
+    (1,8),
+    (1,9),
+
+    (2,1),
+    (2,2),
+    (2,4),
+    (2,6),
+    (2,8),
+    (2,9),
+
+    (3,1),
+    (3,8),
+
+    (4,1),
+    (4,2),
+    (4,3),
+    (4,4),
+    (4,5),
+    (4,6),
+    (4,7),
+    (4,8),
+    (4,9),
+    (4,10)
+;
 
 
 
