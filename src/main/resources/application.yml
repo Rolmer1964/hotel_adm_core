@@ -17,4 +17,10 @@ spring:
       ddl-auto: create
     show-sql: true
     open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+    defer-datasource-initialization: true
+
+
 
