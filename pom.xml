@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.rolmertelis</groupId>
-	<artifactId>estudo</artifactId>
+	<artifactId>hotel_adm_core</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>estudo</name>
-	<description>estudo de temas sobre java e spring</description>
+	<name>hotel_adm_core</name>
+	<description>Core do sistema de gestão de hotéis</description>
 	<url/>
 	<licenses>
 		<license/>
