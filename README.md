@@ -60,13 +60,13 @@ Quando aparecer a caixa de diálogo para logar, lembre-se de preencher o campo J
 ![img.png](img.png)
 
 ### Pontos importantes para o uso da api com finalizade de aprendizado
-Forma como foi definido o modelo de negócio (os pojos)
-Relacionamentos entre as entidades
-Annotations relativas à persistência
-Arquivo de geração de massa de dados para testes
-Observar os cuidados com privacidade e segurança  (somente dados fake)
-Chaves dos applications***.yml para configuração de banco de dados em memória
-Configuração de ambiente e porta - definidos nos applications***.yml
+1. Forma como foi definido o modelo de negócio (os pojos)
+2. Relacionamentos entre as entidades
+3. Annotations relativas à persistência
+4. Arquivo de geração de massa de dados para testes
+5. Observar os cuidados com privacidade e segurança  (somente dados fake)
+6. Chaves dos applications***.yml para configuração de banco de dados em memória
+7. Configuração de ambiente e porta - definidos nos applications***.yml
 
 
 
