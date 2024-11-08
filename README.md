@@ -28,7 +28,7 @@ spring:
 ```
 3 - Mantenha quantos aquivos application***.yml forem necessários para seus experimentos e testes
 
-4 - Esteja atento à porta onde a API estará rodando, pode ser que você, para algum teste de integração, estaja rodando mais de uma API, simultaneamente. Configura e porta no application***.yml, considerado nos seus testes. Veja exemplos:
+4 - Esteja atento à porta onde a API estará rodando, pode ser que você, para algum teste de integração, esteja rodando mais de uma API, simultaneamente. Configura e porta no application***.yml, considerado nos seus testes. Veja exemplos:
 
 **no arquivo application-dev.yml**
 ```yaml
@@ -58,6 +58,16 @@ http://localhost:8081/h2/
 Quando aparecer a caixa de diálogo para logar, lembre-se de preencher o campo JDBC URL com as informações relativas ao seu banco de dados
 
 ![img.png](img.png)
+
+### Pontos importantes para o uso da api com finalizade de aprendizado
+Forma como foi definido o modelo de negócio (os pojos)
+Relacionamentos entre as entidades
+Annotations relativas à persistência
+Arquivo de geração de massa de dados para testes
+Observar os cuidados com privacidade e segurança  (somente dados fake)
+Chaves dos applications***.yml para configuração de banco de dados em memória
+Configuração de ambiente e porta - definidos nos applications***.yml
+
 
 
 
