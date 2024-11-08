@@ -1,4 +1,4 @@
-package com.rolmertelis.estudo;
+package com.rolmertelis.sistema_hoteleiro;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

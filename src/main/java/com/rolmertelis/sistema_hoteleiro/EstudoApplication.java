@@ -1,4 +1,4 @@
-package com.rolmertelis.estudo;
+package com.rolmertelis.sistema_hoteleiro;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
