@@ -1,8 +1,6 @@
-package com.rolmertelis.estudo.domain;
+package com.rolmertelis.sistema_hoteleiro.domain;
 
 import jakarta.persistence.*;
-
-import java.util.Set;
 
 @Entity
 @Table(name = "acomodacaoes_arranjos")
@@ -13,9 +11,7 @@ public record AcomodacaoArranjo(
         @ManyToOne
         Contrato contrato,
         String nome,
-        String descricao,
-        @OneToMany
-        Set<AcomodacaoArranjoDetalhe> acomodacaoArranjoDetalhes
+        String descricao
 
 ) {
 }
