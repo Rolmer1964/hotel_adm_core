@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EstudoApplication {
+public class HotelAdminCoreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(EstudoApplication.class, args);
+		SpringApplication.run(HotelAdminCoreApplication.class, args);
 	}
 
 }
